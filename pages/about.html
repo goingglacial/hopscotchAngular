@@ -1,0 +1,18 @@
+<style type="text/css">
+	.flexslider-container {
+		width: 50%;
+		margin: 10px auto;
+	}
+</style>
+
+<div class="jumbotron text-center">
+	<h1>About</h1>
+	
+	<p>{{ message }}</p>
+</div>
+
+<flex-slider slide="s in slides" animation="slide">
+	<li>
+		<img ng-src="{{s}}">
+	</li>
+</flex-slider>

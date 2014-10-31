@@ -1,0 +1,1377 @@
+[
+    {
+        "name": "Highlands Hollow", 
+        "state": "ID", 
+        "town": "Boise"
+    }, 
+    {
+        "name": "Big Horn", 
+        "state": "ID", 
+        "town": "Boise"
+    }, 
+    {
+        "name": "Sockeye Brewing Co", 
+        "state": "ID", 
+        "town": "Boise"
+    }, 
+    {
+        "name": "Table Rock Brewpub", 
+        "state": "ID", 
+        "town": "Boise"
+    }, 
+    {
+        "name": "Coeur d'Alene Brewing", 
+        "state": "ID", 
+        "town": "Coeur d'Alene"
+    }, 
+    {
+        "name": "River Bend Brewing", 
+        "state": "ID", 
+        "town": "Hailey"
+    }, 
+    {
+        "name": "Sun Valley Brewing", 
+        "state": "ID", 
+        "town": "Hailey"
+    }, 
+    {
+        "name": "Brownstone", 
+        "state": "ID", 
+        "town": "Idaho Falls"
+    }, 
+    {
+        "name": "MJ Barleyhoppers", 
+        "state": "ID", 
+        "town": "Lewiston"
+    }, 
+    {
+        "name": "Coeur dxd6Alene Brewing", 
+        "state": "ID", 
+        "town": "Moscow"
+    }, 
+    {
+        "name": "Portneuf Valley", 
+        "state": "ID", 
+        "town": "Pocatello"
+    }, 
+    {
+        "name": "Laughing Dog Brewery", 
+        "state": "ID", 
+        "town": "Ronderay"
+    }, 
+    {
+        "name": "Bertrams Brewery", 
+        "state": "ID", 
+        "town": "Salmon"
+    }, 
+    {
+        "name": "MickDuffxd6s Brewing Co.", 
+        "state": "ID", 
+        "town": "Sandpoint"
+    }, 
+    {
+        "name": "Grand Teton Brewing", 
+        "state": "ID", 
+        "town": "Victor"
+    }, 
+    {
+        "name": "Wallace Brewing Co.", 
+        "state": "ID", 
+        "town": "Wallace"
+    }, 
+    {
+        "name": "Wildlife Brewing", 
+        "state": "ID", 
+        "town": "Victor"
+    }, 
+    {
+        "name": "Glacier Brewhouse", 
+        "state": "AK", 
+        "town": "Anchorage"
+    }, 
+    {
+        "name": "Midnight Sun", 
+        "state": "AK", 
+        "town": "Anchorage"
+    }, 
+    {
+        "name": "Moosexd6s Tooth", 
+        "state": "AK", 
+        "town": "Anchorage"
+    }, 
+    {
+        "name": "Sleeping Lady", 
+        "state": "AK", 
+        "town": "Anchorage"
+    }, 
+    {
+        "name": "Silver Gulch Brewing", 
+        "state": "AK", 
+        "town": "Fox"
+    }, 
+    {
+        "name": "Haines Brewing Co.", 
+        "state": "AK", 
+        "town": "Haines"
+    }, 
+    {
+        "name": "Homer Brewing Co.", 
+        "state": "AK", 
+        "town": "Homer"
+    }, 
+    {
+        "name": "Alaskan Brewing", 
+        "state": "AK", 
+        "town": "Juneau"
+    }, 
+    {
+        "name": "Kassik's Kenai", 
+        "state": "AK", 
+        "town": "Kenai"
+    }, 
+    {
+        "name": "Kodiak Island Brewery", 
+        "state": "AK", 
+        "town": "Kodiak"
+    }, 
+    {
+        "name": "Chinooks Waterfront", 
+        "state": "AK", 
+        "town": "Seward"
+    }, 
+    {
+        "name": "Kenai River Brewing", 
+        "state": "AK", 
+        "town": "Soldotna"
+    }, 
+    {
+        "name": "St. Elias Brewing Co.", 
+        "state": "AK", 
+        "town": "Soldotna"
+    }, 
+    {
+        "name": "Big Time Brewery & Alehouse.", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "Elliot Bay Brewery Pub", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "Elysian Brewing Co", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "Elysian Brewing.", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "Elysian Brew", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "Gordon Biersch Brewery & Restaurant", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "McMenamins Dad Watsons Brewery", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "McMenamins Queen Anne Brewery", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "McMenamins Six Arms Brewery.", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "Pacific Rim Brewing Co", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "Pyramid Alehouse & Brewery", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "Ram/Big Horn Brewery", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "Rock Bottom Brewery.", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "Engine House Restaurant & Brewery", 
+        "state": "WA", 
+        "town": "Tacoma"
+    }, 
+    {
+        "name": "Harmon Brewery & Restaurant.", 
+        "state": "WA", 
+        "town": "Tacoma"
+    }, 
+    {
+        "name": "Rams Horn Brewery", 
+        "state": "WA", 
+        "town": "Tacoma"
+    }, 
+    {
+        "name": "Hales Ales Pub", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "Maritime Pacific Brewing Co.", 
+        "state": "WA", 
+        "town": "Seattle"
+    }, 
+    {
+        "name": "21st Amendment", 
+        "state": "CA", 
+        "town": "San Francisco"
+    }, 
+    {
+        "name": "Alcatraz Brewing Co", 
+        "state": "CA", 
+        "town": "Orange"
+    }, 
+    {
+        "name": "AleSmith Brewing Co", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "Alpine Beer Co", 
+        "state": "CA", 
+        "town": "Alpine"
+    }, 
+    {
+        "name": "Anacapa Brewing Co", 
+        "state": "CA", 
+        "town": "Ventura"
+    }, 
+    {
+        "name": "Anchor Brewing Co", 
+        "state": "CA", 
+        "town": "San Francisco"
+    }, 
+    {
+        "name": "Anderson Valley Brewing Co", 
+        "state": "CA", 
+        "town": "Boonville"
+    }, 
+    {
+        "name": "Angel City/So California Brewing Co", 
+        "state": "CA", 
+        "town": "Torrance"
+    }, 
+    {
+        "name": "Anheuser-Busch Inc - Fairfield", 
+        "state": "CA", 
+        "town": "Fairfield"
+    }, 
+    {
+        "name": "Anheuser-Busch Inc - Los Angeles", 
+        "state": "CA", 
+        "town": "Van Nuys"
+    }, 
+    {
+        "name": "Backstreet Brewery - Irvine", 
+        "state": "CA", 
+        "town": "Irvine"
+    }, 
+    {
+        "name": "Backstreet Brewery - La Quinta", 
+        "state": "CA", 
+        "town": "La Quinta"
+    }, 
+    {
+        "name": "Backstreet Brewery - Ladera Ranch", 
+        "state": "CA", 
+        "town": "Ladera Beach"
+    }, 
+    {
+        "name": "Backstreet Brewery - Vista", 
+        "state": "CA", 
+        "town": "Vista"
+    }, 
+    {
+        "name": "Ballast Point Brewing Co", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "Ballast Point Home Brew Mart", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "Barbara's at the Brewery", 
+        "state": "CA", 
+        "town": "Los Angeles"
+    }, 
+    {
+        "name": "Bay Bridge Brewing", 
+        "state": "CA", 
+        "town": "Chula Vista"
+    }, 
+    {
+        "name": "Bayhawk Ales Inc.", 
+        "state": "CA", 
+        "town": "Irvine"
+    }, 
+    {
+        "name": "Beach Chalet Brewery & Restaurant", 
+        "state": "CA", 
+        "town": "San Francisco"
+    }, 
+    {
+        "name": "Bear Republic Brewing Co", 
+        "state": "CA", 
+        "town": "Healdsburg"
+    }, 
+    {
+        "name": "Beermanns Beerwerks", 
+        "state": "CA", 
+        "town": "Roseville"
+    }, 
+    {
+        "name": "Belmont Brewing Co", 
+        "state": "CA", 
+        "town": "Long Beach"
+    }, 
+    {
+        "name": "Big Bear Mountain Brewery", 
+        "state": "CA", 
+        "town": "Big Bear Lake"
+    }, 
+    {
+        "name": "Bison Brewing Co", 
+        "state": "CA", 
+        "town": "Berkeley"
+    }, 
+    {
+        "name": "Black Diamond Brewing Co - Walnut Creek", 
+        "state": "CA", 
+        "town": "Walnut Creek"
+    }, 
+    {
+        "name": "Bonaventure Brewing Co", 
+        "state": "CA", 
+        "town": "Los Angeles"
+    }, 
+    {
+        "name": "Bootleggerxd6s Brewery", 
+        "state": "CA", 
+        "town": "Fullerton"
+    }, 
+    {
+        "name": "Boulder Creek Brewery & Cafe", 
+        "state": "CA", 
+        "town": "Boulder Creek"
+    }, 
+    {
+        "name": "Breakwater Brewing Co - Coast Hwy", 
+        "state": "CA", 
+        "town": "Oceanside"
+    }, 
+    {
+        "name": "Brew It Up! Brewery & Grill", 
+        "state": "CA", 
+        "town": "Sacramento"
+    }, 
+    {
+        "name": "Brewbakers Brewing Co & Restaurant", 
+        "state": "CA", 
+        "town": "Visalia"
+    }, 
+    {
+        "name": "Brewery Adventures", 
+        "state": "CA", 
+        "town": "Petaluma"
+    }, 
+    {
+        "name": "Brewery Artwalk Los Angeles", 
+        "state": "CA", 
+        "town": "Los Angeles"
+    }, 
+    {
+        "name": "Brewery at Lake Tahoe", 
+        "state": "CA", 
+        "town": "South Lake Tahoe"
+    }, 
+    {
+        "name": "Broken Drum Brewery & Wood Grill", 
+        "state": "CA", 
+        "town": "San Rafael"
+    }, 
+    {
+        "name": "Brothers Brewing Co", 
+        "state": "CA", 
+        "town": "Oakland"
+    }, 
+    {
+        "name": "Buffalo Bill's Brew Pub", 
+        "state": "CA", 
+        "town": "Hayward"
+    }, 
+    {
+        "name": "Butte Creek Brewing Co", 
+        "state": "CA", 
+        "town": "Chico"
+    }, 
+    {
+        "name": "California Brewing Co", 
+        "state": "CA", 
+        "town": "Alhambra"
+    }, 
+    {
+        "name": "California Tea & Coffee Brewery", 
+        "state": "CA", 
+        "town": "Temecula"
+    }, 
+    {
+        "name": "Calistoga Inn, Restaurant & Brewery", 
+        "state": "CA", 
+        "town": "Calistoga"
+    }, 
+    {
+        "name": "Callahan's Pub & Brewery", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "Cannery Row Brewing Co", 
+        "state": "CA", 
+        "town": "Monterey"
+    }, 
+    {
+        "name": "Central Coast Brewing Co", 
+        "state": "CA", 
+        "town": "San Luis Obispo"
+    }, 
+    {
+        "name": "Chalkers Redbird Brewing Co", 
+        "state": "CA", 
+        "town": "San Mateo"
+    }, 
+    {
+        "name": "Chicago Pizza & Brewery - Huntington Beach", 
+        "state": "CA", 
+        "town": "Huntington Beach"
+    }, 
+    {
+        "name": "Chicago Pizza & Brewery - Temecula", 
+        "state": "CA", 
+        "town": "Temecula"
+    }, 
+    {
+        "name": "Chicago Pizza & Brewery - West Covina", 
+        "state": "CA", 
+        "town": "West Covina"
+    }, 
+    {
+        "name": "Chula Vista Brewery", 
+        "state": "CA", 
+        "town": "Vista"
+    }, 
+    {
+        "name": "Compass Creek Restaurant & Brewery", 
+        "state": "CA", 
+        "town": "Rancho Cucamonga"
+    }, 
+    {
+        "name": "Coronado Brewing Co", 
+        "state": "CA", 
+        "town": "Coronado"
+    }, 
+    {
+        "name": "Craftsman Brewing Co", 
+        "state": "CA", 
+        "town": "Pasadena"
+    }, 
+    {
+        "name": "Crazy Horse Saloon & Brewery", 
+        "state": "CA", 
+        "town": "Oroville"
+    }, 
+    {
+        "name": "Creekside Brewing Co", 
+        "state": "CA", 
+        "town": "San Luis Obispo"
+    }, 
+    {
+        "name": "Crown City Brewery", 
+        "state": "CA", 
+        "town": "Pasadena"
+    }, 
+    {
+        "name": "Dale Bros Brewery", 
+        "state": "CA", 
+        "town": "Upland"
+    }, 
+    {
+        "name": "Devil's Canyon Brewing Co", 
+        "state": "CA", 
+        "town": "Belmont"
+    }, 
+    {
+        "name": "Distillery", 
+        "state": "CA", 
+        "town": "Sacramento"
+    }, 
+    {
+        "name": "Dixon's Restaurant & Brewery", 
+        "state": "CA", 
+        "town": "South Lake Tahoe"
+    }, 
+    {
+        "name": "Downtown Brewing Co - San Luis Obispo", 
+        "state": "CA", 
+        "town": "San Luis Obispo"
+    }, 
+    {
+        "name": "Downtown Brewing Co - Santa Barbara", 
+        "state": "CA", 
+        "town": "Santa Barbara"
+    }, 
+    {
+        "name": "Downtown Joe's", 
+        "state": "CA", 
+        "town": "Napa"
+    }, 
+    {
+        "name": "Drakes Brewing Co", 
+        "state": "CA", 
+        "town": "San Leandro"
+    }, 
+    {
+        "name": "Dunsmuir Brewery Works", 
+        "state": "CA", 
+        "town": "Dunsmuir"
+    }, 
+    {
+        "name": "Eel River Brewing Co", 
+        "state": "CA", 
+        "town": "Fortuna"
+    }, 
+    {
+        "name": "Ein Stein's Restaurant Brewery Inc", 
+        "state": "CA", 
+        "town": "Hermosa Beach"
+    }, 
+    {
+        "name": "EJ Phair Brewing Co", 
+        "state": "CA", 
+        "town": "Concord"
+    }, 
+    {
+        "name": "EJ Phair Brewing Co & Ale House", 
+        "state": "CA", 
+        "town": "Concord"
+    }, 
+    {
+        "name": "El Cajon Brewing Co", 
+        "state": "CA", 
+        "town": "El Cajon"
+    }, 
+    {
+        "name": "El Toro Brewing Co", 
+        "state": "CA", 
+        "town": "Morgan Hill"
+    }, 
+    {
+        "name": "Elk Grove Brewery and Restaurant", 
+        "state": "CA", 
+        "town": "Elk Grove"
+    }, 
+    {
+        "name": "English Ales Brewery", 
+        "state": "CA", 
+        "town": "Marina"
+    }, 
+    {
+        "name": "Farmhouse Brewing Co", 
+        "state": "CA", 
+        "town": "Gilroy"
+    }, 
+    {
+        "name": "Faultline Brewing Co", 
+        "state": "CA", 
+        "town": "Sunnyvale"
+    }, 
+    {
+        "name": "Firehouse Grill & Brewery - E Palo Alto", 
+        "state": "CA", 
+        "town": "East Palo Alto"
+    }, 
+    {
+        "name": "Firehouse Grill & Brewery - Sunnyvale", 
+        "state": "CA", 
+        "town": "Sunnyvale"
+    }, 
+    {
+        "name": "Firestone Walker Brewing Co", 
+        "state": "CA", 
+        "town": "Paso Robles"
+    }, 
+    {
+        "name": "Gallagher's Irish Pub", 
+        "state": "CA", 
+        "town": "Sacramento"
+    }, 
+    {
+        "name": "Gold Hill Brewery", 
+        "state": "CA", 
+        "town": "Placerville"
+    }, 
+    {
+        "name": "Golden State Brewing Co", 
+        "state": "CA", 
+        "town": "Encino"
+    }, 
+    {
+        "name": "Gordon Biersch Brewing Co - Burbank", 
+        "state": "CA", 
+        "town": "Burbank"
+    }, 
+    {
+        "name": "Gordon Biersch Brewing Co - Pasadena", 
+        "state": "CA", 
+        "town": "Pasadena"
+    }, 
+    {
+        "name": "Gordon Biersch Brewing Co - San Diego", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "Gordon Biersch Brewing Co - San Francisco", 
+        "state": "CA", 
+        "town": "San Francisco"
+    }, 
+    {
+        "name": "Gordon Biersch Brewing Co - San Jose", 
+        "state": "CA", 
+        "town": "San Jose"
+    }, 
+    {
+        "name": "Gordon Biersch Brewing Co - San Jose", 
+        "state": "CA", 
+        "town": "San Jose"
+    }, 
+    {
+        "name": "Green Flash Brewing Co", 
+        "state": "CA", 
+        "town": "Vista"
+    }, 
+    {
+        "name": "Growler Craft Brewery", 
+        "state": "CA", 
+        "town": "Murphys"
+    }, 
+    {
+        "name": "Half Moon Bay Brewing Co.", 
+        "state": "CA", 
+        "town": "Half Moon Bay"
+    }, 
+    {
+        "name": "Hangar One Vodka Distillery", 
+        "state": "CA", 
+        "town": "Alameda"
+    }, 
+    {
+        "name": "Hangtown Brewery", 
+        "state": "CA", 
+        "town": "Placerville"
+    }, 
+    {
+        "name": "Happy Valley Brewing", 
+        "state": "CA", 
+        "town": "Somerset"
+    }, 
+    {
+        "name": "Hollister Brewing Co", 
+        "state": "CA", 
+        "town": "Goleta"
+    }, 
+    {
+        "name": "Hopland Brewery", 
+        "state": "CA", 
+        "town": "Hopland"
+    }, 
+    {
+        "name": "Hoppy Brewing Co", 
+        "state": "CA", 
+        "town": "Sacramento"
+    }, 
+    {
+        "name": "HopTown Brewing Co ", 
+        "state": "CA", 
+        "town": "Pleasanton"
+    }, 
+    {
+        "name": "Humboldt Brews LLC", 
+        "state": "CA", 
+        "town": "Arcata"
+    }, 
+    {
+        "name": "Indian Wells Brewing Co", 
+        "state": "CA", 
+        "town": "Inyokern"
+    }, 
+    {
+        "name": "Ione Brewery", 
+        "state": "CA", 
+        "town": "Ione"
+    }, 
+    {
+        "name": "Iron Springs Pub & Brewery", 
+        "state": "CA", 
+        "town": "Fairfax"
+    }, 
+    {
+        "name": "Island Brewing Co", 
+        "state": "CA", 
+        "town": "Carpinteria"
+    }, 
+    {
+        "name": "Jack Russel Micro Brewery", 
+        "state": "CA", 
+        "town": "Camino"
+    }, 
+    {
+        "name": "Jack's Brewing Co", 
+        "state": "CA", 
+        "town": "Fremont"
+    }, 
+    {
+        "name": "Java Bob's", 
+        "state": "CA", 
+        "town": "Castro Valley"
+    }, 
+    {
+        "name": "Jergensen`s Brewery", 
+        "state": "CA", 
+        "town": "Adelanto"
+    }, 
+    {
+        "name": "JT Schmid's Restaurant & Brewery - Anaheim", 
+        "state": "CA", 
+        "town": "Anaheim"
+    }, 
+    {
+        "name": "JT Schmid's Restaurant & Brewery - Tustin", 
+        "state": "CA", 
+        "town": "Tusin"
+    }, 
+    {
+        "name": "Karl Strauss Breweries - Home Office", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "Karl Strauss Brewing Co - Carlsbad", 
+        "state": "CA", 
+        "town": "Carlsbad"
+    }, 
+    {
+        "name": "Karl Strauss Brewing Co - Costa Mesa", 
+        "state": "CA", 
+        "town": "Costa Mesa"
+    }, 
+    {
+        "name": "Karl Strauss Brewing Co - Downtown", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "Karl Strauss Brewing Co - La Jolla", 
+        "state": "CA", 
+        "town": "La Jolla"
+    }, 
+    {
+        "name": "Karl Strauss Brewing Co - Sorrento Mesa", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "Karl Strauss Brewing Co - Universal City", 
+        "state": "CA", 
+        "town": "Universal City"
+    }, 
+    {
+        "name": "Kelley Bros. Brewing Co", 
+        "state": "CA", 
+        "town": "Manteca"
+    }, 
+    {
+        "name": "Kern River Brewing Co", 
+        "state": "CA", 
+        "town": "Kernville"
+    }, 
+    {
+        "name": "La Jolla Brew House", 
+        "state": "CA", 
+        "town": "La Jolla"
+    }, 
+    {
+        "name": "Lagunitas Brewing Co", 
+        "state": "CA", 
+        "town": "Petaluma"
+    }, 
+    {
+        "name": "Left Coast Brewing & Oggi's Pizza", 
+        "state": "CA", 
+        "town": "San Clemente"
+    }, 
+    {
+        "name": "Lightning Brewery", 
+        "state": "CA", 
+        "town": "Poway"
+    }, 
+    {
+        "name": "Lockdown Brewing Company", 
+        "state": "CA", 
+        "town": "Folsom"
+    }, 
+    {
+        "name": "Los Gatos Brewing Co", 
+        "state": "CA", 
+        "town": "Los Gatos"
+    }, 
+    {
+        "name": "Lost Coast Brew House", 
+        "state": "CA", 
+        "town": "Eureka"
+    }, 
+    {
+        "name": "Lost Coast Brewery & Caf_", 
+        "state": "CA", 
+        "town": "Eureka"
+    }, 
+    {
+        "name": "Lumberyard Brewing Co", 
+        "state": "CA", 
+        "town": "Sonora"
+    }, 
+    {
+        "name": "Mad River Brewing Co", 
+        "state": "CA", 
+        "town": "Blue Lake"
+    }, 
+    {
+        "name": "Magnolia Pub & Brewery", 
+        "state": "CA", 
+        "town": "San Francisco"
+    }, 
+    {
+        "name": "Main Street Brewery", 
+        "state": "CA", 
+        "town": "Corona"
+    }, 
+    {
+        "name": "Mammoth Brewing", 
+        "state": "CA", 
+        "town": "Mammoth Lakes"
+    }, 
+    {
+        "name": "Mammoth Brewing Co", 
+        "state": "CA", 
+        "town": "Mammoth Lakes"
+    }, 
+    {
+        "name": "Manhattan Beach Brewing Co", 
+        "state": "CA", 
+        "town": "Manhattan Beach"
+    }, 
+    {
+        "name": "Marin Brewing Co", 
+        "state": "CA", 
+        "town": "Larkspur"
+    }, 
+    {
+        "name": "Mendocino Brewing Co", 
+        "state": "CA", 
+        "town": "Ukiah"
+    }, 
+    {
+        "name": "Miller Brewing Co - Irwindale", 
+        "state": "CA", 
+        "town": "Irwindale"
+    }, 
+    {
+        "name": "Mission Brewery", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "Mission Brewery/Miami Grlll", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "Morro Bay Brewing Co", 
+        "state": "CA", 
+        "town": "Morro Bay"
+    }, 
+    {
+        "name": "Moss Beach Distillery", 
+        "state": "CA", 
+        "town": "Moss Beach"
+    }, 
+    {
+        "name": "Mount Shasta Brewing Co", 
+        "state": "CA", 
+        "town": "Weed"
+    }, 
+    {
+        "name": "Mount Tallac Brewing Co", 
+        "state": "CA", 
+        "town": "South Lake Tahoe"
+    }, 
+    {
+        "name": "Moylan's Brewery & Restaurant", 
+        "state": "CA", 
+        "town": "Novato"
+    }, 
+    {
+        "name": "Murrieta Pizza & Brewing", 
+        "state": "CA", 
+        "town": "Murrieta"
+    }, 
+    {
+        "name": "Newport Beach Brewing Co", 
+        "state": "CA", 
+        "town": "Newport Beach"
+    }, 
+    {
+        "name": "Nocturnal Brewing Co", 
+        "state": "CA", 
+        "town": "Brentwood"
+    }, 
+    {
+        "name": "North Coast Brewery", 
+        "state": "CA", 
+        "town": "Fort Bragg"
+    }, 
+    {
+        "name": "North Star Craft Brewery", 
+        "state": "CA", 
+        "town": "Shasta Lake"
+    }, 
+    {
+        "name": "Ocean Avenue Brewery", 
+        "state": "CA", 
+        "town": "Laguna Beach"
+    }, 
+    {
+        "name": "Oceanside Ale Works - Ord Way", 
+        "state": "CA", 
+        "town": "Oceanside"
+    }, 
+    {
+        "name": "Old River Brew Co", 
+        "state": "CA", 
+        "town": "Bakersfield"
+    }, 
+    {
+        "name": "Omaha Jackxd6s Grillhouse & Brewery", 
+        "state": "CA", 
+        "town": "Rancho Cucamonga"
+    }, 
+    {
+        "name": "Opera House Restaurant & Brewery", 
+        "state": "CA", 
+        "town": "Tracy"
+    }, 
+    {
+        "name": "P H Woods Diner & Brewery", 
+        "state": "CA", 
+        "town": "Moreno Valley"
+    }, 
+    {
+        "name": "Pacific Beach Ale House", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "Pasadena Brewing Co", 
+        "state": "CA", 
+        "town": "Pasadena"
+    }, 
+    {
+        "name": "Pizza Port - Carlsbad", 
+        "state": "CA", 
+        "town": "Carlsbad"
+    }, 
+    {
+        "name": "Pizza Port - Solana Beach", 
+        "state": "CA", 
+        "town": "Solana Beach"
+    }, 
+    {
+        "name": "Placerville Brewing CO LLC", 
+        "state": "CA", 
+        "town": "Placerville"
+    }, 
+    {
+        "name": "Pleasanton Main St Brewery", 
+        "state": "CA", 
+        "town": "Pleasanton"
+    }, 
+    {
+        "name": "Port Brewing Co/The Lost Abbey", 
+        "state": "CA", 
+        "town": "San Marcos"
+    }, 
+    {
+        "name": "Pyramid Alehouse Brewery & Restaurant", 
+        "state": "CA", 
+        "town": "Walnut Creek"
+    }, 
+    {
+        "name": "Pyramid Alehouse Brewery at Berkeley", 
+        "state": "CA", 
+        "town": "Berkeley"
+    }, 
+    {
+        "name": "Pyramid Alehouse, Brewery & Restaurant", 
+        "state": "CA", 
+        "town": "Sacramento"
+    }, 
+    {
+        "name": "Rafter's Grille and Brewery", 
+        "state": "CA", 
+        "town": "San Rafael"
+    }, 
+    {
+        "name": "RAXX BBQ & Brewing Co", 
+        "state": "CA", 
+        "town": "Riverside"
+    }, 
+    {
+        "name": "Red Car Brewery & Restaurant", 
+        "state": "CA", 
+        "town": "Torrance"
+    }, 
+    {
+        "name": "Red Rock Winery and Brewery", 
+        "state": "CA", 
+        "town": "Merced"
+    }, 
+    {
+        "name": "Redondo Beach Brewing Co", 
+        "state": "CA", 
+        "town": "Redondo Beach"
+    }, 
+    {
+        "name": "River City Brewing Co", 
+        "state": "CA", 
+        "town": "Sacramento"
+    }, 
+    {
+        "name": "River Rock Brewery & Cafe", 
+        "state": "CA", 
+        "town": "Roseville"
+    }, 
+    {
+        "name": "Rock Bottom Brewery - Campbell", 
+        "state": "CA", 
+        "town": "Campbell"
+    }, 
+    {
+        "name": "Rock Bottom Brewery - Irvine", 
+        "state": "CA", 
+        "town": "Irvine"
+    }, 
+    {
+        "name": "Rock Bottom Brewery - La Jolla", 
+        "state": "CA", 
+        "town": "La Jolla"
+    }, 
+    {
+        "name": "Rock Bottom Brewery - Long Beach", 
+        "state": "CA", 
+        "town": "Long Beach"
+    }, 
+    {
+        "name": "Rock Bottom Brewery - Los Gatos", 
+        "state": "CA", 
+        "town": "Los Gatos"
+    }, 
+    {
+        "name": "Rock Bottom Brewery - San Diego", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "Rosen Brewery", 
+        "state": "CA", 
+        "town": "Los Angeles"
+    }, 
+    {
+        "name": "Rubicon Brewing Co", 
+        "state": "CA", 
+        "town": "Sacramento"
+    }, 
+    {
+        "name": "Saddleback Brewery Inc", 
+        "state": "CA", 
+        "town": "Rancho Santa Margarita"
+    }, 
+    {
+        "name": "San Diego Brewing Co", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "San Francisco Pier 39 Attraction Pass", 
+        "state": "CA", 
+        "town": "San Francisco"
+    }, 
+    {
+        "name": "San Marcos Brewery & Grill", 
+        "state": "CA", 
+        "town": "San Marcos"
+    }, 
+    {
+        "name": "Santa Barbara Brewing Co", 
+        "state": "CA", 
+        "town": "Santa Barbara"
+    }, 
+    {
+        "name": "Santa Maria Brewing Co", 
+        "state": "CA", 
+        "town": "Nipomo"
+    }, 
+    {
+        "name": "Schooner's Grille & Brewery", 
+        "state": "CA", 
+        "town": "Antioch"
+    }, 
+    {
+        "name": "Seabright Brewery", 
+        "state": "CA", 
+        "town": "Santa Cruz"
+    }, 
+    {
+        "name": "Sequoia Brewing Co - Champlain", 
+        "state": "CA", 
+        "town": "Fresno"
+    }, 
+    {
+        "name": "Sequoia Brewing Co - Olive Ave.", 
+        "state": "CA", 
+        "town": "Fresno"
+    }, 
+    {
+        "name": "Sierra Nevada Brewing Co", 
+        "state": "CA", 
+        "town": "Chico"
+    }, 
+    {
+        "name": "Silverado Brewing Co", 
+        "state": "CA", 
+        "town": "Saint Helena"
+    }, 
+    {
+        "name": "Six Rivers Brewery", 
+        "state": "CA", 
+        "town": "McKinleyville"
+    }, 
+    {
+        "name": "Snowshoe Brewing Co", 
+        "state": "CA", 
+        "town": "Arnold"
+    }, 
+    {
+        "name": "SOAR Inflatables/Russian River Adventures", 
+        "state": "CA", 
+        "town": "Santa Rosa"
+    }, 
+    {
+        "name": "Speakeasy Ales & Lagers", 
+        "state": "CA", 
+        "town": "San Francisco"
+    }, 
+    {
+        "name": "St Stans Brewery Pub and Restaurant", 
+        "state": "CA", 
+        "town": "Modesto"
+    }, 
+    {
+        "name": "Stanislaus Brewing Co", 
+        "state": "CA", 
+        "town": "Modesto"
+    }, 
+    {
+        "name": "Steelhead Brewery Co", 
+        "state": "CA", 
+        "town": "Burlingame"
+    }, 
+    {
+        "name": "Steelhead Micro Brewery", 
+        "state": "CA", 
+        "town": "Irvine"
+    }, 
+    {
+        "name": "Stone Brewing Co", 
+        "state": "CA", 
+        "town": "Escondido"
+    }, 
+    {
+        "name": "Stone Brewing Co", 
+        "state": "CA", 
+        "town": "Escondido"
+    }, 
+    {
+        "name": "Stumptown Brewery", 
+        "state": "CA", 
+        "town": "Guerneville"
+    }, 
+    {
+        "name": "Sudwerk Brewery & Grill", 
+        "state": "CA", 
+        "town": "Sacramento"
+    }, 
+    {
+        "name": "Sudwerk Privatbrauerei Hubsch", 
+        "state": "CA", 
+        "town": "Davis"
+    }, 
+    {
+        "name": "Sudwerk Restaurant and Brewery", 
+        "state": "CA", 
+        "town": "Davis"
+    }, 
+    {
+        "name": "Sutterville Brewery", 
+        "state": "CA", 
+        "town": "Sacramento"
+    }, 
+    {
+        "name": "TAPS Fish House & Brewery - Brea", 
+        "state": "CA", 
+        "town": "Brea"
+    }, 
+    {
+        "name": "TAPS Fish House & Brewery - Corona", 
+        "state": "CA", 
+        "town": "Corona"
+    }, 
+    {
+        "name": "Taylor's Restaurant & Brewery", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "Telegraph Brewing Co", 
+        "state": "CA", 
+        "town": "Santa Barbara"
+    }, 
+    {
+        "name": "Terrific Pacific Brewery and Grill", 
+        "state": "CA", 
+        "town": "San Diego"
+    }, 
+    {
+        "name": "The Brewery Restaurant & Bar", 
+        "state": "CA", 
+        "town": "Weaverville"
+    }, 
+    {
+        "name": "The Fresno Brewing Co", 
+        "state": "CA", 
+        "town": "Fresno"
+    }, 
+    {
+        "name": "The Old Bavarian Brewery", 
+        "state": "CA", 
+        "town": "Volcano"
+    }, 
+    {
+        "name": "The Powerhouse Brewing Co", 
+        "state": "CA", 
+        "town": "Sebastapol"
+    }, 
+    {
+        "name": "The Taproom at Firestone Walker Brewing Co", 
+        "state": "CA", 
+        "town": "Buellton"
+    }, 
+    {
+        "name": "The Water Brewery", 
+        "state": "CA", 
+        "town": "Costa Mesa"
+    }, 
+    {
+        "name": "Thirsty Bear Brewing Co", 
+        "state": "CA", 
+        "town": "San Francisco"
+    }, 
+    {
+        "name": "Tied House Brewery and Cafe", 
+        "state": "CA", 
+        "town": "San Jose"
+    }, 
+    {
+        "name": "Triple Rock Brewery", 
+        "state": "CA", 
+        "town": "Berkeley"
+    }, 
+    {
+        "name": "Trumer Brauerei Berkeley", 
+        "state": "CA", 
+        "town": "Berkeley"
+    }, 
+    {
+        "name": "Tuscan Brewing Co", 
+        "state": "CA", 
+        "town": "Red Bluff"
+    }, 
+    {
+        "name": "Ukiah Brewing Co", 
+        "state": "CA", 
+        "town": "Ukiah"
+    }, 
+    {
+        "name": "Valley Brewing Co", 
+        "state": "CA", 
+        "town": "Stockton"
+    }, 
+    {
+        "name": "Visalia Brewing Co", 
+        "state": "CA", 
+        "town": "Visalia"
+    }, 
+    {
+        "name": "Waterfront Brewery", 
+        "state": "CA", 
+        "town": "Redondo Beach"
+    }, 
+    {
+        "name": "Weiland Brewery Restaurant", 
+        "state": "CA", 
+        "town": "Los Angeles"
+    }, 
+    {
+        "name": "Westwood Brewing Co", 
+        "state": "CA", 
+        "town": "Los Angeles"
+    }
+]

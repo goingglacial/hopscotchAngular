@@ -1,0 +1,20 @@
+<div class="jumbotron text-center">
+	<h1>Thirsty for a crafty brew?</h1>
+	<p>{{ message }}</p>
+	<input ng-model="query" type="text" id="tipue_drop_input"><br>
+	Sort by:
+	<select ng-model="orderProp">
+		<option style="font-family: 'Open Sans', sans-serif" value="name">Alphabetical</option>
+		<option value="state">State</option>
+	</select>
+</div>
+
+<!-- search and output -->
+<div>
+	<ul style="font-family: 'Open Sans', sans-serif; list-style-type: none">
+		<li ng-repeat="brew in brews | filter:query | orderBy:orderProp">
+			{{brew.name}}</span>
+			<p>{{brew.town}}, {{brew.state}}</p>
+		</li>
+	</ul>
+</div>
