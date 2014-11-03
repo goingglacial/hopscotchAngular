@@ -1,16 +1,13 @@
-<style type="text/css">
-	.flexslider-container {
-		width: 50%;
-		margin: 10px auto;
-	}
-</style>
-
 <div class="jumbotron text-center">
 	<h1>About</h1>
+	<p>{{message}}</p>
 </div>
 
-<flexslider slide="slide in slides" animation="slide">
-	<li>
-		<img ng-src="{{s}}">
-	</li>
-</flexslider>
+<center>
+	<simple-slider style="width:612px; height:612px" transition-property="opacity" start-value="0" visible-value="1" end-value="0">
+	  <img src="https://lh3.googleusercontent.com/-mYJqRwtFuEc/VFe8ig6JPUI/AAAAAAAADCA/6mOV42wVORY/w601-h697-no/Anderson.jpg"/>
+	  <img src="https://lh3.googleusercontent.com/--C5ybzQL-Qs/VFe8jKsMAgI/AAAAAAAADCI/n-scGDBJ-hY/w309-h356-no/Deschutes.jpg"/>
+	  <img src="https://lh6.googleusercontent.com/-umEWGPPRGlM/VFe8lDVKPXI/AAAAAAAADCQ/N9RPR49TB9M/w411-h474-no/Milk.jpg"/>
+	  <img src="https://lh3.googleusercontent.com/-Gm0PujWqm2A/VFe8mKwvxEI/AAAAAAAADCg/SV_KNXQpxsU/w368-h424-no/Uinta.jpg"/>
+	</simple-slider>
+</center>

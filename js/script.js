@@ -1,5 +1,5 @@
 	// create the module and name it hopscotchApp
-	var hopscotchApp = angular.module('hopscotchApp', ['ngRoute', 'ngMap', 'angular-flexslider']);
+	var hopscotchApp = angular.module('hopscotchApp', ['ngRoute', 'ngMap', 'angularSimpleSlider']);
 
 	// configure our routes
 	hopscotchApp.config(function($routeProvider) {
@@ -44,12 +44,7 @@
 	});
 
 	hopscotchApp.controller('aboutController', function($scope) {
-		$scope.slides = [
-			'http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg',
-			'http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg',
-			'http://flexslider.woothemes.com/images/kitchen_adventurer_donut.jpg',
-			'http://flexslider.woothemes.com/images/kitchen_adventurer_caramel.jpg'
-		];
+		$scope.message = 'Brews. Bagels. Bratwurst.'
 	});
 
 	hopscotchApp.controller('searchController', function($scope,$http) {
