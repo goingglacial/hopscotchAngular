@@ -1,4 +1,4 @@
-	var hopscotchApp = angular.module('hopscotchApp', ['ngRoute', 'ngMap', 'angularSimpleSlider']);
+	var hopscotchApp = angular.module('hopscotchApp', ['ngRoute', 'ngMap', 'angularSimpleSlider', 'ngAutocomplete']);
 
 	hopscotchApp.config(function($routeProvider) {
 		$routeProvider
@@ -84,4 +84,7 @@
 	      map.setZoom(8);
 	      map.setCenter(marker.getPosition());
 	    }
+	    $scope.result1 = '';
+    	$scope.options1 = null;
+    	$scope.details1 = '';
 	  }]);
