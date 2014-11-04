@@ -30,7 +30,7 @@
  *
  */
 
-angular.module( "ngAutocomplete", [])
+angular.module( 'ngAutocomplete', [])
   .directive('ngAutocomplete', function($parse) {
     return {
 
@@ -90,6 +90,40 @@ angular.module( "ngAutocomplete", [])
           element[0].value = '';
           scope.ngAutocomplete = element.val();
         }, true);
+
+        var place = element.val();
+        var map,
+          formatted_address = place.formatted_address,
+          mapDiv = document.getElementById('map-container'),
+          geocoder = new google.maps.Geocoder();
+          latLng = new google.maps.LatLng(place.geometry.location.lat(),place.geometry.location.lng()),
+          latLngForArray = [place.geometry.location.lat(),place.geometry.location.lng()];
+          // Get LatLng information by name
+          geocoder.geocode({
+            address: formatted_address,
+            location: latLng
+            }, function(results){
+                map = new google.maps.Map(mapDiv, {
+                  center: results[0].geometry.location,
+                  zoom: 8,
+                  mapTypeId: google.maps.MapTypeId.TRANSIT
+                });
+              var posi = setMarker(latLngForArray);
+              var marker, i;
+              for (i = 0; i < posi.length; i++) {
+                marker = new google.maps.Marker({
+                  position: new google.maps.LatLng(posi[i][0], posi[i][1]),
+                  map: map,
+                  icon: 'http://www.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png'
+                });
+              }
+            }
+          );
+
+          function setMarker(position) {
+            markers.push(position);
+            return markers;
+          };
       }
     };
   });

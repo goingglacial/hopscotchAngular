@@ -75,16 +75,7 @@
 	    $scope.$on('mapInitialized', function(event, map) {
 	      marker = map.markers[0];
 	    });
-	    $scope.centerChanged = function(event) {
-	      $timeout(function() {
-	        map.panTo(marker.getPosition());
-	      }, 3000);
-	    }
-	    $scope.click = function(event) {
-	      map.setZoom(8);
-	      map.setCenter(marker.getPosition());
-	    }
 	    $scope.result1 = '';
-    	$scope.options1 = null;
+    	//$scope.options1 = null;
     	$scope.details1 = '';
 	  }]);
