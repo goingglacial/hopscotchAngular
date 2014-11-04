@@ -1,7 +1,5 @@
-	// create the module and name it hopscotchApp
 	var hopscotchApp = angular.module('hopscotchApp', ['ngRoute', 'ngMap', 'angularSimpleSlider']);
 
-	// configure our routes
 	hopscotchApp.config(function($routeProvider) {
 		$routeProvider
 
@@ -36,9 +34,27 @@
 			})
 	});
 
-	// create the controller and inject Angular's $scope
+	hopscotchApp.directive('googleplace', function() {
+		return {
+			require : 'ngModel',
+			link: function(scope, element, attrs, model) {
+				var options = {
+					types : [],
+				};
+				scope.gPlace = new google.maps.places.Autocomplete(element[0],
+					options);
+
+				google.maps.event.addListener(scope.gPlace, 'place_changed',
+					function () {
+						scope.$apply(function() {
+							model.$setViewValue(element.val());
+						});
+					});
+			}
+		};
+	});
+
 	hopscotchApp.controller('mainController', function($scope) {
-		// create a message to display in our view
 		$scope.image = 'https://lh6.googleusercontent.com/-JBeBwwUf9y4/VE7QgzF1zaI/AAAAAAAAC_U/5ONGOPTZ3YI/w1774-h1118-no/beers.gif';
 		$scope.message = 'Tap kegs from east to west!'
 	});
