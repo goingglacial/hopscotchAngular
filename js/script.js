@@ -55,7 +55,7 @@
 	    $scope.$on('mapInitialized', function(event, map) {
 	      marker = map.markers[0];
 	    });
-	    $scope.result1 = '';
+	    $scope.result = '';
     	//$scope.options1 = null;
-    	$scope.details1 = '';
+    	$scope.details = '';
 	  }]);
