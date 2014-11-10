@@ -60,8 +60,10 @@ angular.module( 'ngAutocomplete', [])
             scope.$apply(function() {
 //              if (scope.details) {
                 scope.details = scope.gPlace.getPlace();
+                var placeDetails = scope.details;
 //              }
               scope.ngAutocomplete = element.val();
+              var place = scope.ngAutocomplete;
             });
           })
         }
@@ -78,32 +80,6 @@ angular.module( 'ngAutocomplete', [])
           scope.ngAutocomplete = element.val();
         }, true);
 
-        // Get LatLng information by name
-        geocoder.geocode({
-          address: formatted_address,
-          location: latLng
-          }, function(results){
-              map = new google.maps.Map(mapDiv, {
-                center: results[0].geometry.location,
-                zoom: 8,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-              });
-            var posi = setMarker(latLngForArray);
-            var marker, i;
-            for (i = 0; i < posi.length; i++) {
-              marker = new google.maps.Marker({
-                position: new google.maps.LatLng(posi[i][0], posi[i][1]),
-                map: map,
-                icon: 'http://www.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png'
-              });
-            }
-          }
-        );
-
-        function setMarker(position) {
-          markers.push(position);
-          return markers;
-        };
     }
   };
 });
