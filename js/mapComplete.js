@@ -42,6 +42,7 @@ angular.module( 'ngAutocomplete', [])
             }
             if (scope.options.bounds) {
               opts.bounds = scope.options.bounds
+              bounds = opts.bounds
             }
             if (scope.options.country) {
               opts.componentRestrictions = {
@@ -63,22 +64,45 @@ angular.module( 'ngAutocomplete', [])
                 var placeDetails = scope.details;
 //              }
               scope.ngAutocomplete = element.val();
-              var place = scope.ngAutocomplete;
             });
           })
         }
-        newAutocomplete()
+        newAutocomplete();
 
         //watch options provided to directive
         scope.watchOptions = function () {
           return scope.options
-        };
-        scope.$watch(scope.watchOptions, function () {
+          };
+          scope.$watch(scope.watchOptions, function () {
           initOpts()
           newAutocomplete()
           element[0].value = '';
           scope.ngAutocomplete = element.val();
-        }, true);
+          }, true);
+
+        var marker = new google.maps.Marker({
+          map: map,
+          anchorPoint: new google.maps.Point(0, -29)
+        });
+
+        autocomplete.bindTo('bounds', map);
+
+        if (place.geometry.viewport) {
+          map.fitBounds(place.geometry.viewport);
+        } else {
+          map.setCenter(place.geometry.location);
+          map.setZoom(17);
+        }
+
+        marker.setIcon({
+          url: images/beerIcon.png,
+          size: new google.maps.Size(71, 71),
+          origin: new google.maps.Point(0, 0),
+          anchor: new google.maps.Point(17, 34),
+          scaledSize: new google.maps.Size(35, 35)
+        }));
+        marker.setPosition(place.geometry.location);
+        marker.setVisible(true);
 
     }
   };

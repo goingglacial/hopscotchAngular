@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Playing with d3!</title>
+		<script type="text/javascript" src="d3/d3.v3.js"></script>
+		<style type="text/css">
+		</style>
+	</head>
+	<body>
+	<script type="text/javascript">
+/*
+		function randomColor() {
+			return "rgb(" + (Math.floor(256*Math.random())) + "," + (Math.floor(256*Math.random())) + "," +
+				(Math.floor(256*Math.random())) + ")";
+		}
+*/
+		var w = 1024;
+		var h = 768;
+
+		d3.selection.prototype.moveToFront = function() {
+
+			return this.each(function(){
+
+					this.parentNode.appendChild(this);
+					  
+					});
+
+		};
+
+			//Define map projection
+			var projection = d3.geo.albersUsa()
+								   .translate([w/2, h/2])
+								   .scale([w]);
+
+			//Define path generator
+			var path = d3.geo.path()
+							 .projection(projection);
+
+			//Create SVG element
+			var svg = d3.select("body")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h)
+						.style("background-color", "steelblue");
+
+			//Load in GeoJSON data
+			d3.json("data/us-states.json", function(json) {
+				
+				//Bind data and create one path per GeoJSON feature
+				var statepaths = svg.selectAll("path")
+				   .data(json.features)
+				   .enter()
+				   .append("path")
+				   .attr("d", path)
+				   .style("fill", "black")
+				   .style("stroke", "white")
+				   .style("stroke-width", "2px");
+
+				statepaths.on("click", function() {
+					d3.select(this)
+					.style("fill", "white")
+					.on("mouseout", null) // removes other event listeners
+					.on("mouseover", null) 
+					.on("click", null) 
+					.transition()
+					.duration(1000)
+					.style("fill-opacity","0")
+					.style("stroke-opacity","0").remove();
+				});
+				statepaths.on("mouseover", function() {
+
+									 d3.select(this)
+									 .moveToFront()
+						.transition()
+						.duration(200)
+						.attr("d", path)
+						.attr("transform", function(d) {
+							var centroid = path.centroid(d),
+							x = centroid[0],
+							y = centroid[1];
+							return "translate(" + x + "," + y + ")"
+							+ "scale(1.2)"
+							            + "translate(" + -x + "," + -y + ")";
+							})
+						.style("fill", "yellow");
+				});
+				statepaths.on("mouseout", function() {
+					d3.select(this)
+						.transition()
+						.duration(200)
+						.attr("d", path)
+						.attr("transform", "")
+						.style("fill", "black");
+				});
+/*
+				statepaths.on("click", function() {
+					d3.select(this)
+						.style("fill", "red");
+						.transition()
+						.duration(200)
+						.style("fill", "black");
+				});
+*/
+
+
+
+			});
+			
+
+
+/*
+		var svg = d3.select("body").append("svg")
+					.attr("width", w).attr("height", h);
+
+
+		svg.append("circle").attr("cx", w/2).attr("cy", h/4).attr("r", 50);
+		svg.append("circle").attr("cx", w/4).attr("cy", h/2).attr("r", 50);
+		svg.append("circle").attr("cx", w/2).attr("cy", h/2).attr("r", 50);
+		svg.append("circle").attr("cx", w/4).attr("cy", h/4).attr("r", 50);
+
+		var circles = d3.selectAll("circle").attr("fill", "rgb(0,0,100)");
+
+		circles.on("click", function() {
+			d3.select(this)
+			.transition()
+			.duration(1000)
+			.attr("fill", randomColor);
+		});
+
+		circles.on("mouseover", function() {
+			d3.select(this)
+			.transition()
+			.duration(200)
+			.attr("r", 100);
+		});
+		circles.on("mouseout", function() {
+			d3.select(this)
+			.transition()
+			.duration(200)
+			.attr("r", 80);
+			});
+
+			*/
+/*
+			var at = d3.select("body").selectAll("p")
+				.data(dataset)
+				.enter()
+				.append("div")
+				.attr("class", "bar")
+				
+			at.style("height", "100px");
+			at.style("width", "100px");
+			at.style("background-color", randomColor);
+
+			at.on("click", function() {
+				d3.select(this)
+				.transition()
+				.duration(1000)
+				.style("background-color", randomColor);
+			});
+			at.on("mouseover", function() {
+				d3.select(this)
+				.transition()
+				.duration(200)
+				.style("width", "150px")
+				.style("height", "150px");
+			});
+			at.on("mouseout", function() {
+				d3.select(this)
+				.transition()
+				.duration(200)
+				.style("width", "100px")
+				.style("height", "100px");
+			});
+*/
+		</script>
+		<!--<p>New paragraph! (plain html)</p>-->
+	</body>
+</html>
