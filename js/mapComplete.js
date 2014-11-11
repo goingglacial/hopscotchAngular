@@ -20,38 +20,43 @@
 angular.module( 'ngAutocomplete', [])
   .directive('ngAutocomplete', function($parse) {
     return {
+      controller: var marker, map;
+      $scope.$on('mapInitialized', function(event, map) {
+        marker = map.markers[0];
+      });
 
       scope: {
         details: '=',
         ngAutocomplete: '=',
-        options: '='
+        options: '=',
+        map: '='
       },
 
       link: function(scope, element, attrs, model) {
 
         //options for autocomplete
-        var opts
+        var opts;
 
         //convert options provided to opts
         var initOpts = function() {
-          opts = {}
+          opts = {};
           if (scope.options) {
             if (scope.options.types) {
-              opts.types = []
-              opts.types.push(scope.options.types)
+              opts.types = [];
+              opts.types.push(scope.options.types);
             }
             if (scope.options.bounds) {
-              opts.bounds = scope.options.bounds
-              bounds = opts.bounds
+              opts.bounds = scope.options.bounds;
+              bounds = opts.bounds;
             }
             if (scope.options.country) {
               opts.componentRestrictions = {
                 country: scope.options.country
-              }
+              };
             }
           }
         }
-        initOpts()
+        initOpts();
 
         //create new autocomplete
         //reinitializes on every change of the options provided
@@ -68,41 +73,6 @@ angular.module( 'ngAutocomplete', [])
           })
         }
         newAutocomplete();
-
-        //watch options provided to directive
-        scope.watchOptions = function () {
-          return scope.options
-          };
-          scope.$watch(scope.watchOptions, function () {
-          initOpts()
-          newAutocomplete()
-          element[0].value = '';
-          scope.ngAutocomplete = element.val();
-          }, true);
-
-        var marker = new google.maps.Marker({
-          map: map,
-          anchorPoint: new google.maps.Point(0, -29)
-        });
-
-        autocomplete.bindTo('bounds', map);
-
-        if (place.geometry.viewport) {
-          map.fitBounds(place.geometry.viewport);
-        } else {
-          map.setCenter(place.geometry.location);
-          map.setZoom(17);
-        }
-
-        marker.setIcon({
-          url: images/beerIcon.png,
-          size: new google.maps.Size(71, 71),
-          origin: new google.maps.Point(0, 0),
-          anchor: new google.maps.Point(17, 34),
-          scaledSize: new google.maps.Size(35, 35)
-        }));
-        marker.setPosition(place.geometry.location);
-        marker.setVisible(true);
 
     }
   };

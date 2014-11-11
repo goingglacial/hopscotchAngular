@@ -1,5 +1,19 @@
 	var hopscotchApp = angular.module('hopscotchApp', ['ngRoute', 'ngMap', 'angularSimpleSlider', 'ngAutocomplete']);
 
+/*
+	hopscotchApp.directive('states', function($parse) {
+		return {
+			restrict: 'E',
+			replace: true,
+			template: '<div id="statesD3></div>',
+			link: function (scope, element, attrs) {
+			statesMap = d3.select.('#statesD3')
+				
+			}
+		};
+	});
+*/
+
 	hopscotchApp.config(function($routeProvider) {
 		$routeProvider
 
@@ -35,8 +49,12 @@
 	});
 
 	hopscotchApp.controller('mainController', function($scope) {
-		$scope.image = 'https://lh6.googleusercontent.com/-JBeBwwUf9y4/VE7QgzF1zaI/AAAAAAAAC_U/5ONGOPTZ3YI/w1774-h1118-no/beers.gif';
 		$scope.message = 'Tap kegs from east to west!'
+		/*
+		$http.get('states/us-states.json').success(function(data) {
+			$scope.states = data;
+			});
+		*/
 	});
 
 	hopscotchApp.controller('aboutController', function($scope) {
