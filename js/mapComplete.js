@@ -20,10 +20,6 @@
 angular.module( 'ngAutocomplete', [])
   .directive('ngAutocomplete', function($parse) {
     return {
-      controller: var marker, map;
-      $scope.$on('mapInitialized', function(event, map) {
-        marker = map.markers[0];
-      });
 
       scope: {
         details: '=',
@@ -73,6 +69,8 @@ angular.module( 'ngAutocomplete', [])
           })
         }
         newAutocomplete();
+
+
 
     }
   };
